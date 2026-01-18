@@ -41,15 +41,10 @@ Additional nodes can be added later to form a multi-node cluster.
 # Future Improvements
 
 - Multi-node cluster
-
 - GitOps with Argo CD
-
 - Persistent storage with Longhorn
-
 - Backup & restore strategy
-
 - Network policies
-
 - CI integration
 
 # About Me
