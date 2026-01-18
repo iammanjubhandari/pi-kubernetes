@@ -54,6 +54,14 @@ CI integration
 
 
 
+# About Me
 
+I am a DevOps & SRE engineer with 6+ years of experience, working across:
 
+- Kubernetes
+- AWS & cloud platforms
+- CI/CD pipelines
+- Production reliability
+- Monitoring & incident response
 
+This project represents how I design, operate, and document Kubernetes systems in real environments.
