@@ -18,7 +18,7 @@ This lab runs on bare-metal hardware, not virtual machines.
 
 - Storage: 64 GB USB 3.0 SSD
 
-- Network: Wired Ethernet
+- Network: Wifi
 
 - Power: Dedicated power supply
 
@@ -40,19 +40,17 @@ Additional nodes can be added later to form a multi-node cluster.
 
 # Future Improvements
 
-Multi-node cluster
+- Multi-node cluster
 
-GitOps with Argo CD
+- GitOps with Argo CD
 
-Persistent storage with Longhorn
+- Persistent storage with Longhorn
 
-Backup & restore strategy
+- Backup & restore strategy
 
-Network policies
+- Network policies
 
-CI integration
-
-
+- CI integration
 
 # About Me
 
