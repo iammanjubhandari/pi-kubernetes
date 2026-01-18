@@ -25,6 +25,18 @@ This lab runs on bare-metal hardware, not virtual machines.
 The setup is intentionally lightweight but realistic.
 Additional nodes can be added later to form a multi-node cluster.
 
+# Software
+
+- Operating System: Raspberry Pi OS (Debian-based) / Ubuntu Server (ARM64)
+
+- Container Runtime: containerd
+
+- Kubernetes Distribution: k3s
+
+- Init System: systemd
+
+- Filesystem: ext4
+
 
 
 
