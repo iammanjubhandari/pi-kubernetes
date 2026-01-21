@@ -22,11 +22,7 @@ spec:
                 name: linkding-container-env
           volumeMounts:
             - name: linkding-data
-                mountPath: /etc/linkding/data
-          decryption:
-            provider: sops
-            secretRef:
-              name: sops-age
+              mountPath: /etc/linkding/data 
       volumes:
         - name: linkding-data
           persistentVolumeClaim:
