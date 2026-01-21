@@ -19,10 +19,14 @@ spec:
             - containerPort: 9090
           envFrom:
             - secretRef:
-              name: linkding-container-env
+                name: linkding-container-env
           volumeMounts:
             - name: linkding-data
-              mountPath: /etc/linkding/data
+                mountPath: /etc/linkding/data
+          decryption:
+            provider: sops
+            secretRef:
+              name: sops-age
       volumes:
         - name: linkding-data
           persistentVolumeClaim:
