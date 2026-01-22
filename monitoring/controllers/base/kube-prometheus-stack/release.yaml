@@ -27,3 +27,33 @@ spec:
   values:
     grafana:
       adminPassword: mischa
+      ingress:
+        enabled: true
+
+        ingressClassName: "traefik"
+
+        annotations: {}
+
+        labels: {}
+
+        ## Hosts must be provided if Ingress is enabled.
+        ##
+        hosts: []
+          - grs.iammanjubhandari.online
+
+        ## Paths to use for ingress rules - one path should match the thanosruler.routePrefix
+        ##
+        paths: []
+        # - /
+
+        ## For Kubernetes >= 1.18 you should specify the pathType (determines how Ingress paths should be matched)
+        ## See https://kubernetes.io/blog/2020/04/02/improvements-to-the-ingress-api-in-kubernetes-1.18/#better-path-matching-with-path-types
+        # pathType: ImplementationSpecific
+
+        ## TLS configuration for ThanosRuler Ingress
+        ## Secret must be manually created in the namespace
+        ##
+        tls: []
+        # - secretName: thanosruler-general-tls
+        #   hosts:
+        #   - thanosruler.example.com
