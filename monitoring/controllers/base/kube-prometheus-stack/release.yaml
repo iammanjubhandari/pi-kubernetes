@@ -38,7 +38,7 @@ spec:
 
         ## Hosts must be provided if Ingress is enabled.
         ##
-        hosts: []
+        hosts:
           - grs.iammanjubhandari.online
 
         ## Paths to use for ingress rules - one path should match the thanosruler.routePrefix
